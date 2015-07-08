@@ -8,9 +8,9 @@ public interface GameState {
 	public static final String GAME = "game";
 	public static final String END = "end";
 	
-	public abstract void onStart();
+	public void onStart();
 	
-	public abstract void onEnd();
+	public void onEnd();
 	
-	public abstract String getName();
+	public String getName();
 }
